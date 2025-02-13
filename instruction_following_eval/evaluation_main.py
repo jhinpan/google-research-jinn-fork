@@ -113,7 +113,7 @@ def generate_responses(inputs):
             "text": prompt_text,  # Use key "text" as required by SGLang.
             "sampling_params": {
                 "temperature": 0.6,
-                "max_new_tokens": 512,
+                "max_new_tokens": 1024,
                 "top_p": 0.95
             }
         }
